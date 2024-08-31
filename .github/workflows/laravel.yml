@@ -33,3 +33,11 @@ jobs:
         DB_CONNECTION: sqlite
         DB_DATABASE: database/database.sqlite
       run: php artisan test
+
+    - name: 📂 Sync files
+      uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+      with:
+        server: ${{ secrets.FTP_SERVER }}
+        username: ${{ secrets.FTP_PASSWORD }}
+        password: ${{ secrets.FTP_USERNAME}}
+        server-dir: "/home/vol15_1/infinityfree.com/if0_37185962/htdocs/"
