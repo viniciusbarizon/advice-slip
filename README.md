@@ -1,4 +1,4 @@
-<a href="http://adviceslip.infinityfreeapp.com/public/" target="_blank">
+<a href="http://adviceslip.infinityfreeapp.com" target="_blank">
     <b>Get the advice here</b>
 </a>
 
